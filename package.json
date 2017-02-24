@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "wp1": "node qrcode.js 1",
+    "wp2": "node qrcode.js 2",
+    "serve": "npm run wp1 && npm run wp2 && serve -p 3000"
+  },
+  "dependencies": {
+    "ip": "^1.1.4",
+    "qrcode-terminal": "^0.11.0",
+    "serve": "^3.4.1"
+  }
+}

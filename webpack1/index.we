@@ -1,0 +1,17 @@
+<template>
+  <div>
+    <text>Hello World {{a}} 333333</text>
+  </div>
+</template>
+
+<script>
+
+  module.exports = {
+    data: {
+      a: 1
+    },
+    created: function () {
+      this.a = typeof global
+    }
+  }
+</script>
